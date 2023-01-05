@@ -1,4 +1,19 @@
 body {
-  background-image: url("background-photo-2.heic ");
+  background-image: url("background-photo-3.jpg");
   background-size: cover;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-size: 300%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 300%;
+  margin-top: 0%;
+  margin-bottom: 15px;
 }
