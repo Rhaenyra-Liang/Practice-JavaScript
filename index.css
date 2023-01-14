@@ -20,8 +20,7 @@ h2 {
 }
 
 button {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 1em;
   color: aliceblue;
   font-weight: bolder;
   font-size: 1rem;

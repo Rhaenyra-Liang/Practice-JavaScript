@@ -1,13 +1,18 @@
 // window.onload = function () {
-//   document.getElementById("count-0").innerText = 5;
+//   document.querySelector("count-el").innerText = 5;
 // };
 
-let countl = 0;
+// intialize the count as 0
+// listen for clicks on the increment button
+// increment the count variable when button is clicked (log it out)
+// change the count-el in HTML to reflect the new count
 
-console.log(count);
+let countElement = document.querySelector("#count-el");
+console.log(countElement);
 
-let count = 50;
-count = count + 50;
-count = count - 75;
-count = count + 45;
-console.log(count);
+let count = 0;
+
+function increment() {
+  count = count + 1;
+  countElement.innerText = count;
+}
