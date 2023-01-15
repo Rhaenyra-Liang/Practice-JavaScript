@@ -8,11 +8,15 @@
 // change the count-el in HTML to reflect the new count
 
 let countElement = document.querySelector("#count-el");
-console.log(countElement);
-
 let count = 0;
 
 function increment() {
-  count = count + 1;
+  count += 1;
   countElement.innerText = count;
+}
+
+// 1. Creat a function, save(), which logs out the count when it's call
+
+function save() {
+  console.log(count);
 }

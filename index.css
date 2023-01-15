@@ -20,15 +20,19 @@ h2 {
 }
 
 button {
+  margin: 0.5em;
   padding: 1em;
   color: aliceblue;
   font-weight: bolder;
   font-size: 1rem;
-  width: 40%;
-  margin-bottom: 10%;
+  width: 15em;
   border-radius: 5px;
 }
 
 #increment-btn {
   background-color: rgb(123, 27, 27);
+}
+
+#save-btn {
+  background-color: rgb(2, 64, 2);
 }
