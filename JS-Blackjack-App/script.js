@@ -29,5 +29,5 @@ function newCard() {
   // 2. Add the new card to the sum variable
   sum += card;
   // 3. call startgame()
-  //   startGame();
+  startGame();
 }
