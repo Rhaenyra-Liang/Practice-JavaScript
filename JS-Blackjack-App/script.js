@@ -8,7 +8,9 @@ let messageElement = document.querySelector("#message-el");
 let sumElement = document.querySelector("#sum-el");
 let cardElement = document.querySelector("#card-el");
 
-function starGame() {
+function startGame() {
+  cardElement.textContent = "Card: " + firstCard + " " + secondCard;
+  sumElement.textContent = "Sum: " + sum;
   if (sum <= 20) {
     message = "Do you want to draw a new card? 😌";
   } else if (sum === 21) {
@@ -19,6 +21,13 @@ function starGame() {
     isAlive = false;
   }
   messageElement.textContent = message;
-  sumElement.textContent = "Sum: " + sum;
-  cardElement.textContent = "Card: " + firstCard + "+" + secondCard;
+}
+
+function newCard() {
+  // 1. Creat a card variable, and hard its value to a number (2-11)
+  let card = 7;
+  // 2. Add the new card to the sum variable
+  sum += card;
+  // 3. call startgame()
+  //   startGame();
 }
